@@ -15,5 +15,9 @@ ax[0].set_title("Gráfico de Barras")
 
 # Gráfico de linhas no subplot inferior
 ax[1].plot(x,y2, marker = "o", linestyle = "-",color="orange")
+ax[1].set_title("Gráfico de Linhas")
 
+
+#ajustar espaçamento entre os subplots
+plt.tight_layout()
 plt.show()
